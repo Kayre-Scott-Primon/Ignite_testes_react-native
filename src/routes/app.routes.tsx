@@ -6,8 +6,10 @@ import { Dashboard } from '@screens/Dashboard';
 const { Navigator, Screen } = createNativeStackNavigator();
 
 export function AppRoutes() {
+
   return (
     <Navigator screenOptions={{ headerShown: false }}>
+      
       <Screen
         name="search"
         component={Search}
