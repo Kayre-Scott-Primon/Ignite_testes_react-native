@@ -30,6 +30,8 @@ Testar uma funcionalidade separadamente e de forma isolada
 
 Jest como ferramenta
 
+documento .ts
+
 ### Boas praticas
 
 - Usar bons nomes
@@ -38,3 +40,20 @@ Jest como ferramenta
 - Evitar aninha describe 
 - Ser independentes
 - Fazer testes pequenos e simples
+
+
+# testes de componentes
+
+- Testar os componentes de formas isoladas
+
+Documento .tsx
+
+query vs get 
+
+sempre tentar falhar, para verificar se o teste está realmente falhando 
+
+# Mock
+
+testes são case sensitives
+
+pode usar regex
