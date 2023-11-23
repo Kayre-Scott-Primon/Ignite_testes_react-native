@@ -8,7 +8,9 @@ describe("Component: SelectList", () => {
       { id: "2", name: "São João", latitude: 321, longitude: 123 },
     ];
 
-    render(<SelectList data={data} onChange={() => {}} onPress={() => {}} />);
+    const onPress = jest.fn();
+
+    render(<SelectList data={data} onChange={() => {}} onPress={onPress} />);
 
     const selectedCity = screen.getByText(/Paulo/i); // i para ignorar case sensitive
 
@@ -16,6 +18,21 @@ describe("Component: SelectList", () => {
 
     fireEvent.press(selectedCity);
 
-    console.log(selectedCity);
+    //console.log(selectedCity);
+
+    //expect(onPress).toBeCalledTimes(1); // deve ser chamado 1 vez
+
+    expect(onPress).toBeCalledWith(data[0]); // deve ser chamado com o primeiro item do array
+  });
+
+  it("not should be show options when data props is empty", () => {
+    render(<SelectList data={[]} onChange={() => {}} onPress={() => {}} />);
+
+    const options = screen.getByTestId("options");
+
+    console.log(options.children);
+
+    expect(options.children).toHaveLength(0); // não deve ter nenhum filho 
+
   });
 });

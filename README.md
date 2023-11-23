@@ -57,3 +57,27 @@ sempre tentar falhar, para verificar se o teste está realmente falhando
 testes são case sensitives
 
 pode usar regex
+
+simular, reproduzir algo real.
+não depender de fatores externos e conseguir realmente testar o que precisamos
+
+## mockar api
+spyon
+
+na pasta de `__tests__/mocks` cria-se os arquivos que serão os retornos da API, mockados.
+
+-----
+
+Junto ao arquivo, cria-se o arquivo de testes
+esse arquivo vai realizar os testes 
+
+
+para testar AsynStorage é preciso de uma configuração extra. como segue no site.
+
+os testes não devem depender um do outro
+
+quando usa algo externo, como SVG, mockar o svg
+
+jest trasformer svg
+
+só vai passar o teste se todos os expected passarem
