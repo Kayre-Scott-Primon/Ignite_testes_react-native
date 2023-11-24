@@ -1,28 +1,28 @@
 # Ignite_testes_react-native
+
 Aula do Ignite-Rocketseat sobre testes automatizados em React Native
 
 ## Para executar o projeto
 
- - Baixe o codigo-fonte
- - Instale as dependencias
-    - npm `npm installl`
-    - yarn `npx yarn install`
- - Realize o cadastro na API
-    - https://openweathermap.org/api
-    - Recupere o key do seu usuário
-    - Cria, na raiz do proejto, um arquivo `.env`
-    - adicione então sua key `EXPO_PUBLIC_WEATHER_APP_ID=SUA_KEY`
- - Execute o comando para iniciar o projeto 
-    - com npm `npm start`
-    - com yarn `npx yarn start`
+- Baixe o codigo-fonte
+- Instale as dependencias
+  - npm `npm installl`
+  - yarn `npx yarn install`
+- Realize o cadastro na API
+  - https://openweathermap.org/api
+  - Recupere o key do seu usuário
+  - Cria, na raiz do proejto, um arquivo `.env`
+  - adicione então sua key `EXPO_PUBLIC_WEATHER_APP_ID=SUA_KEY`
+- Execute o comando para iniciar o projeto
+  - com npm `npm start`
+  - com yarn `npx yarn start`
 
+# teste unitário
 
-
-#  teste unitário
 Testar uma funcionalidade separadamente e de forma isolada
 
 - Detecção precoce de erros
-- Qualidade 
+- Qualidade
 - Facil manutenção
 - Economia de tempo
 - Diminui os custos
@@ -37,10 +37,9 @@ documento .ts
 - Usar bons nomes
 - Usar o describe
 - Ser conciso e focado, teste ser direcionado e para um unico comportamento
-- Evitar aninha describe 
+- Evitar aninha describe
 - Ser independentes
 - Fazer testes pequenos e simples
-
 
 # testes de componentes
 
@@ -48,9 +47,9 @@ documento .ts
 
 Documento .tsx
 
-query vs get 
+query vs get
 
-sempre tentar falhar, para verificar se o teste está realmente falhando 
+sempre tentar falhar, para verificar se o teste está realmente falhando
 
 # Mock
 
@@ -62,15 +61,15 @@ simular, reproduzir algo real.
 não depender de fatores externos e conseguir realmente testar o que precisamos
 
 ## mockar api
+
 spyon
 
 na pasta de `__tests__/mocks` cria-se os arquivos que serão os retornos da API, mockados.
 
------
+---
 
 Junto ao arquivo, cria-se o arquivo de testes
-esse arquivo vai realizar os testes 
-
+esse arquivo vai realizar os testes
 
 para testar AsynStorage é preciso de uma configuração extra. como segue no site.
 
@@ -81,3 +80,20 @@ quando usa algo externo, como SVG, mockar o svg
 jest trasformer svg
 
 só vai passar o teste se todos os expected passarem
+
+# Hooks
+
+testar hooks
+
+renderHook testing-library/react-native
+|-> para renderizar o hook
+
+add o provider |-> **wrapper** como segunda propriedade para o render hook
+
+todos os providers precisam ser configurados
+ - usar o wrapper
+
+
+quando tem mais de um contexto
+- criar um render customizado
+
