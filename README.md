@@ -107,27 +107,29 @@ relatorio sobre a cobertura de testes
 avaliar o quanto o codigo está sendo testado
 
 ## comando
-
+```
 npm run test:coverage
+```
 
 - vai criar uma pasta
-- dentro dela, acessa o index.html
+- dentro dela, acessa o _index.html_
 
   - Pagina mais organizada
+    
+![relatorio](https://github.com/Kayre-Scott-Primon/Ignite_testes_react-native/assets/64801417/ee45d2a3-9216-43f7-94b7-90a0ffdfa507)
 
-- print here
+
 
 ## selecionar arquivos a serem testados
 
 no jest.config.json
-
+```
 "testPathIgnorePatterns": ["./__tests__/mocks", "./__tests__/utils"],
 "collectCoverageFrom": ["./src/**/*.{ts,tsx}", "!./src/**/styles.ts"],
 "coveragePathIgnorePatterns": ["./src/@types", "./src/styles"]
-
+```
 
 ## para mudar a pasta de coverage
 
 jest.config.json
-
-  "coverageDirectory": "__tests__/coverage"
+`"coverageDirectory": "__tests__/coverage" `
