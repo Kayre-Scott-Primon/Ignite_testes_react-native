@@ -91,9 +91,43 @@ renderHook testing-library/react-native
 add o provider |-> **wrapper** como segunda propriedade para o render hook
 
 todos os providers precisam ser configurados
- - usar o wrapper
 
+- usar o wrapper
 
 quando tem mais de um contexto
+
 - criar um render customizado
 
+# Coverage Report
+
+relatorio sobre a cobertura de testes
+
+- porcentagem de linhas, funções instruções ou ramificações
+
+avaliar o quanto o codigo está sendo testado
+
+## comando
+
+npm run test:coverage
+
+- vai criar uma pasta
+- dentro dela, acessa o index.html
+
+  - Pagina mais organizada
+
+- print here
+
+## selecionar arquivos a serem testados
+
+no jest.config.json
+
+"testPathIgnorePatterns": ["./__tests__/mocks", "./__tests__/utils"],
+"collectCoverageFrom": ["./src/**/*.{ts,tsx}", "!./src/**/styles.ts"],
+"coveragePathIgnorePatterns": ["./src/@types", "./src/styles"]
+
+
+## para mudar a pasta de coverage
+
+jest.config.json
+
+  "coverageDirectory": "__tests__/coverage"

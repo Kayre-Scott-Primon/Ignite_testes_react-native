@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1701025167108" clover="3.2.0">
+  <project timestamp="1701025167108" name="All files">
+    <metrics statements="123" coveredstatements="103" conditionals="33" coveredconditionals="27" methods="42" coveredmethods="34" elements="198" coveredelements="164" complexity="0" loc="123" ncloc="123" packages="16" files="21" classes="21"/>
+    <package name="components.Day">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/components/Day/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Input">
+      <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/components/Input/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="11" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Loading">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/components/Loading/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.NextDays">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/components/NextDays/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.SelectList">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/components/SelectList/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.WeatherDetails">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/components/WeatherDetails/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="26" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.WeatherItem">
+      <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/components/WeatherItem/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="14" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.WeatherToday">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/components/WeatherToday/index.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="contexts">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="CityContext.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/contexts/CityContext.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="19" count="12" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="12" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="39" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="useCity.ts" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/hooks/useCity.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="17" type="stmt"/>
+        <line num="8" count="17" type="stmt"/>
+      </file>
+    </package>
+    <package name="libs.asyncStorage">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="cityStorage.ts" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/libs/asyncStorage/cityStorage.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="9" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="routes">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="app.routes.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/routes/app.routes.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/routes/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.Dashboard">
+      <metrics statements="34" coveredstatements="21" conditionals="9" coveredconditionals="7" methods="9" coveredmethods="4"/>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/screens/Dashboard/index.tsx">
+        <metrics statements="34" coveredstatements="21" conditionals="9" coveredconditionals="7" methods="9" coveredmethods="4"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="70" count="6" type="stmt"/>
+        <line num="71" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="81" count="6" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="85" count="6" type="cond" truecount="5" falsecount="0"/>
+        <line num="86" count="4" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.Search">
+      <metrics statements="18" coveredstatements="12" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="3"/>
+      <file name="index.tsx" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/screens/Search/index.tsx">
+        <metrics statements="18" coveredstatements="12" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="3"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="8" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="8" type="stmt"/>
+        <line num="46" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="51" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="20" coveredstatements="19" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
+      <file name="api.ts" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/services/api.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="getCityByNameService.ts" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/services/getCityByNameService.ts">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+      </file>
+      <file name="getWeatherByCityService.ts" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/services/getWeatherByCityService.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="70" count="3" type="stmt"/>
+        <line num="71" count="6" type="stmt"/>
+        <line num="73" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="78" count="3" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="90" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="getNextDays.ts" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/utils/getNextDays.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="20" type="stmt"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="12" count="20" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+      <file name="isDayTime.ts" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/utils/isDayTime.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="weatherIcons.ts" path="/home/murphy/Documents/GitHub/Ignite_testes_react-native/src/utils/weatherIcons.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
